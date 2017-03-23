@@ -42,3 +42,9 @@ class Player:
             tile (Tile): Tile to add to hand.
         """
         self.hand.append(tile)
+
+    def get_from_hand(self):
+        """
+        Gets a tile from the Player's hand.
+        """
+        return self.hand.pop()
